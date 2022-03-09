@@ -15,7 +15,7 @@ To install this package, run the following command: <br>
 This package was built and tested on Python 3.7.6
 
 # Examples
-## Run LDA Using Mallet
+## Compute Classifier Divergence on MNIST
 ```python
 import torch
 import torchvision as tv
