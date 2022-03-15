@@ -3,8 +3,8 @@ and target sample T. Specifically, this package computes
 a model-dependent divergence, sometimes referred to as the h-discrepancy,
 computed for a model h by finding g which maximizes 
 
-D(g) = max(Pr(h(x) = g(x) | x ~ S) - Pr(h(x) != g(x) | x ~ T),
-    Pr(h(x) != g(x) | x ~ S) - Pr(h(x) = g(x) | x ~ T))
+D(g) = max(Pr(h(x) != g(x) | x ~ S) - Pr(h(x) != g(x) | x ~ T),
+    Pr(h(x) != g(x) | x ~ S) - Pr(h(x) != g(x) | x ~ T))
 
 
 # Installation
