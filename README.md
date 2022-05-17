@@ -29,7 +29,7 @@ ACL code: https://github.com/anthonysicilia/change-that-matters-ACL2022
 
 # Installation
 To install this package, run the following command: <br>
-``` pip install XXXX ```
+``` pip install git+https://github.com/anthonysicilia/classifier-divergence/edit/main/README.md ```
 
 # Dependencies
 This package was built and tested on Python 3.7.6
