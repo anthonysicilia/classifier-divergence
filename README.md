@@ -6,7 +6,8 @@ computed for a model h by finding g which maximizes
 
 D(g) = max(Pr(h(x) != g(x) | x ~ S) - Pr(h(x) != g(x) | x ~ T),
     Pr(h(x) != g(x) | x ~ S) - Pr(h(x) != g(x) | x ~ T)).
-    
+
+## Background
 The properties of this statistic are well studied in the papers:
 [The Change that Matters in Discourse Parsing: Estimating the Impact of Domain Shift on Parser Error](https://arxiv.org/abs/2203.11317) to appear 
 in Findings of [ACL 2022](https://www.2022.aclweb.org) and “PAC-Bayesian Domain Adaptation Bounds for Multiclass Learners” to appear in 
