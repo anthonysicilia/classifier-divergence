@@ -16,6 +16,6 @@ setuptools.setup(
         "Bug Tracker": "https://github.com/anthonysicilia/classifier-divergence/issues"
     },
     license='MIT',
-    packages=['topic_modeling'],
+    packages=['classifier_divergence'],
     install_requires=['tqdm', 'torch', 'torchvision'],
 )
