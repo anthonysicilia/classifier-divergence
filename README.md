@@ -1,11 +1,30 @@
+# Classifier Divergence
 This is a package for computing the divergence between a source sample S 
 and target sample T. Specifically, this package computes
-a model-dependent divergence, sometimes referred to as the h-discrepancy,
+a model-dependent divergence, sometimes referred to as the h-discrepancy or h\Delta\H-divergence
 computed for a model h by finding g which maximizes 
 
 D(g) = max(Pr(h(x) != g(x) | x ~ S) - Pr(h(x) != g(x) | x ~ T),
-    Pr(h(x) != g(x) | x ~ S) - Pr(h(x) != g(x) | x ~ T))
+    Pr(h(x) != g(x) | x ~ S) - Pr(h(x) != g(x) | x ~ T)).
+    
+The properties of this statistic are well studied in the papers:
+[The Change that Matters in Discourse Parsing: Estimating the Impact of Domain Shift on Parser Error](https://arxiv.org/abs/2203.11317) to appear 
+in Findings of [ACL 2022](https://www.2022.aclweb.org) and “PAC-Bayesian Domain Adaptation Bounds for Multiclass Learners” to appear in 
+[UAI 2022](https://www.auai.org/uai2022/). The former studies the bias of this statistic as an estimator for parser error, while the latter studies 
+sample-complexity in domain adaptation, proposing a number of error bounds which contain this statistic as a key term.
 
+Code for this package was derived from code used in the aforementioned papers. Please, consider citing these papers if you use this package.
+
+## Relevant Links
+arXiv (ACL 2022): https://arxiv.org/abs/2203.11317
+
+arXiv (UAI 2022): Forthcoming
+
+shared code: https://github.com/anthonysicilia/multiclass-domain-divergence
+
+UAI code: https://github.com/anthonysicilia/pacbayes-adaptation-UAI2022
+
+ACL code: https://github.com/anthonysicilia/change-that-matters-ACL2022
 
 # Installation
 To install this package, run the following command: <br>
