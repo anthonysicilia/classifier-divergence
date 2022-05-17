@@ -11,9 +11,9 @@ setuptools.setup(
     description='Compute model-dependent distribution divergence.',
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url='https://github.com/PittHLT/topic-modeling',
+    url='https://github.com/anthonysicilia/classifier-divergence',
     project_urls = {
-        "Bug Tracker": "https://github.com/PittHLT/topic-modeling/issues"
+        "Bug Tracker": "https://github.com/anthonysicilia/classifier-divergence/issues"
     },
     license='MIT',
     packages=['topic_modeling'],
