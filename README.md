@@ -10,7 +10,7 @@ D(g) = max(Pr(h(x) != g(x) | x ~ S) - Pr(h(x) != g(x) | x ~ T),
 ## Background
 The properties of this statistic are well studied in the papers:
 [The Change that Matters in Discourse Parsing: Estimating the Impact of Domain Shift on Parser Error](https://arxiv.org/abs/2203.11317) to appear 
-in Findings of [ACL 2022](https://www.2022.aclweb.org) and “PAC-Bayesian Domain Adaptation Bounds for Multiclass Learners” to appear in 
+in Findings of [ACL 2022](https://www.2022.aclweb.org) and [PAC-Bayesian Domain Adaptation Bounds for Multiclass Learners](https://openreview.net/pdf?id=S0lx6I8j9xq) to appear in 
 [UAI 2022](https://www.auai.org/uai2022/). The former studies the bias of this statistic as an estimator for parser error, while the latter studies 
 sample-complexity in domain adaptation, proposing a number of error bounds which contain this statistic as a key term.
 
@@ -19,7 +19,7 @@ Code for this package was derived from code used in the aforementioned papers. P
 ## Relevant Links
 arXiv (ACL 2022): https://arxiv.org/abs/2203.11317
 
-arXiv (UAI 2022): Forthcoming
+OpenReview (UAI 2022): https://openreview.net/pdf?id=S0lx6I8j9xq
 
 shared code: https://github.com/anthonysicilia/multiclass-domain-divergence
 
