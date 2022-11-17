@@ -32,7 +32,9 @@ To install this package, run the following command: <br>
 ``` pip install git+https://github.com/anthonysicilia/classifier-divergence ```
 
 # Dependencies
-This package was built and tested on Python 3.7.6
+This package was built and tested on Python 3.7.6. While the requirements.txt has some package version numbers, the code has also been tested with the following versions:
+ - torch==1.10.2 (build py3.7_cuda10.2_cudnn7.6.5_0)
+ - tqdm==4.45.0
 
 # Examples
 ## Compute Classifier Divergence on MNIST
